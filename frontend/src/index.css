@@ -1,0 +1,165 @@
+body {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Quicksand';
+  padding-top: 5%;
+  word-wrap: break-word;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WalletInfo {
+  width: 500px;
+}
+
+.Block {
+  border: 1px solid #fff;
+  padding: 10%;
+  margin: 2%;
+}
+
+.Transaction {
+  padding: 5%;
+}
+
+.Blockchain, .ConductTransaction, .TransactionPool {
+  margin: 10%;
+  margin-top: 5%;
+}
+
+a, a:hover {
+  color: #e66;
+  text-decoration: underline;
+}
+
+input, button {
+  color: black;
+}
+
+ul
+{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0%;
+  padding: 20px 0;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0.3);
+}
+ul li
+{
+  list-style: none;
+  text-align: center;
+  display: block;
+  border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+ul li:last-child
+{
+    border-right: none;
+}
+
+ul li a
+{
+  text-decoration: none;
+  padding: 0 50px;
+  display: block;
+}
+
+
+ul li a .icon
+{
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+
+ul li a .icon .icons
+{
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+  font-size: 34px;
+  transition: 0.5s;
+  color: rgb(0, 0, 0);;
+}
+
+
+ul li a:hover .icon .icons
+{
+  transform: translateY(-100%); 
+}
+
+ul li a .text
+{
+  position: relative;
+  height: 20px;
+  width: 100%;
+  display: block;
+}
+
+ul li a .text span
+{
+  display: block;
+  position: relative;
+  color: #000;
+  font-size: 18px;
+  line-height: 20px;
+  overflow: hidden;
+  
+
+}
+ul li a .text span:before
+{
+  content: attr(data-text);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgb(0, 0, 0);
+}
+ul li a:hover .text span
+{
+  transform: translateY(10px);
+  color: #e66;
+}
+
+.infos
+{
+display: block;
+list-style: none;
+text-align: center;
+position: relative;
+top: 500%;
+left: 335%;
+font-size: 40px;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.background 
+{
+  
+  background-size: 40px;
+}
