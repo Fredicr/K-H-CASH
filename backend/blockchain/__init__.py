@@ -1,0 +1,1 @@
+##damit git au d init files ka lese
