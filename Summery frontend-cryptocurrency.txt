@@ -1,0 +1,19 @@
+Section Summary: Frontend Blockchain
+
+One of the two sections for the blockchain and cryptocurrency frontend web application completed! Nice work!
+
+Here's a list to highlight the main points from the section:
+
+    The CORS (Cross Origin Resource Sharing) Policy is a security check that the browser implements to ensure that websites are making authorized requests to backend servers. The browser confirms that the backend has recognized the frontend url as an origin. To recognize the frontend url as an origin, the server decorates each response with an "Allow-Control-Allow-Origin" header that will contain the frontend's url.
+
+    Properties or props for short, are a way that parent React components can pass data down to child components,
+
+    Pagination is an approach to display long lists of data in a frontend web application. Instead of attempting to present the entire list, the frontend allows the user to navigate through the list through slices.
+
+Also, here's the completed source code at this point in the course:
+
+https://github.com/15Dkatz/python-blockchain-tutorial/tree/c180240be22888599e80c3523140e205ea339ed1
+
+***
+
+With the frontend for the blockchain finished, let's complete the entire web application by tackling the frontend for the cryptocurrency next!
